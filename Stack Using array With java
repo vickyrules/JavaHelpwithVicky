@@ -1,0 +1,119 @@
+import  java.util.*;
+class Stack
+{
+    int top;
+    int maxsize ;
+    int[] arr;
+
+    boolean isEmpty()
+    {
+        return (top < 0);
+    }
+    Stack(int size)
+    {
+        top = -1;
+        maxsize=size;
+        arr = new int[maxsize];
+    }
+    void push (int val)
+    {
+        if(top == maxsize-1)
+        {
+            System.out.println("\t\t\t-->Overflow !!");
+
+        }
+        else
+        {
+
+            top++;
+            arr[top]=val;
+            System.out.println("\t\t\t-->Item pushed: ");
+        }
+    }
+    void pop ()
+    {
+        if (top == -1)
+        {
+            System.out.println("\t\t-->Underflow !!");
+
+        }
+        else
+        {
+            top --;
+            System.out.println("\t\t-->Item popped");
+        }
+    }
+    void display ()
+    {
+        System.out.println("\t\t\t-->Printing stack elements .....");
+
+        if(isEmpty())
+        {
+            System.out.println("\t\t\t\t--> Stack is empty:");
+        }
+        else {
+            System.out.print("\t\t\t-->  ");
+            for (int i = top; i >= 0; i--) {
+                System.out.print(arr[i] + " ");
+            }
+            System.out.print("   <--");
+        }
+    }
+}
+public class Stack_Operations {
+    public static void main(String[] args) {
+        int choice=0;
+        Scanner scan = new Scanner(System.in);
+
+        System.out.print("Enter the maxsize of the Stack: ");
+        Stack s = new Stack(scan.nextInt());
+
+
+        while(choice != 4)
+        {
+            System.out.println("\n\t\tSelect the Stack operation from the  below");
+            System.out.println("\t\t------------------------------------------------");
+            System.out.println("\t\t1.Push\t2.Pop\t3.Display \t4.Exit");
+            System.out.println("\t\t------------------------------------------------");
+            System.out.print("\t-->Enter your choice: ");
+            choice = scan.nextInt();
+            switch(choice)
+            {
+                case 1:
+                {
+                    System.out.print("\t\t-->Enter Value: ");
+                    int val = scan.nextInt();
+                    s.push(val);
+                    break;
+                }
+                case 2:
+                {
+                    s.pop();
+                    break;
+                }
+                case 3:
+                {
+                    s.display();
+                    break;
+                }
+                case 4:
+                {
+                    System.out.println("\t-->Exiting....");
+                    System.out.println("-------------------------------------------💻 Coded by Vikas Kumar 😎‍-------------------------------------------");
+                    System.exit(0);
+                    break;
+                }
+                default:
+                {
+                    System.out.println("\t-->😒 Please Enter valid choice ");
+                }
+            }
+        }
+
+    }
+}
+
+
+
+
+
