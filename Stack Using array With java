@@ -115,5 +115,56 @@ public class Stack_Operations {
 
 
 
+/*OUTPUT:
+maxsize of the Stack: 
+		Select the Stack operation from the  below
+		------------------------------------------------
+		1.Push	2.Pop	3.Display 	4.Exit
+		------------------------------------------------
+	-->Enter your choice: 		-->Enter Value: 			-->Item pushed: 
 
+		Select the Stack operation from the  below
+		------------------------------------------------
+		1.Push	2.Pop	3.Display 	4.Exit
+		------------------------------------------------
+	-->Enter your choice: 		-->Enter Value: 			-->Item pushed: 
+
+		Select the Stack operation from the  below
+		------------------------------------------------
+		1.Push	2.Pop	3.Display 	4.Exit
+		------------------------------------------------
+	-->Enter your choice: 			-->Printing stack elements .....
+			-->  1 2    <--
+		Select the Stack operation from the  below
+		------------------------------------------------
+		1.Push	2.Pop	3.Display 	4.Exit
+		------------------------------------------------
+	-->Enter your choice: 		-->Item popped
+
+		Select the Stack operation from the  below
+		------------------------------------------------
+		1.Push	2.Pop	3.Display 	4.Exit
+		------------------------------------------------
+	-->Enter your choice: 			-->Printing stack elements .....
+			-->  2    <--
+		Select the Stack operation from the  below
+		------------------------------------------------
+		1.Push	2.Pop	3.Display 	4.Exit
+		------------------------------------------------
+	-->Enter your choice: 		-->Item popped
+
+		Select the Stack operation from the  below
+		------------------------------------------------
+		1.Push	2.Pop	3.Display 	4.Exit
+		------------------------------------------------
+	-->Enter your choice: 			-->Printing stack elements .....
+				--> Stack is empty:
+
+		Select the Stack operation from the  below
+		------------------------------------------------
+		1.Push	2.Pop	3.Display 	4.Exit
+		------------------------------------------------
+	-->Enter your choice: 	-->Exiting....
+-------------------------------------------💻 Coded by Vikas Kumar 😎‍-------------------------------------------
+*/
 
